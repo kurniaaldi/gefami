@@ -42,6 +42,9 @@ export default function RootLayout({
           <Link href="/number7">
             <div className="cursor-pointer hover:underline">Soal No.7</div>
           </Link>
+          <Link href="/number8">
+            <div className="cursor-pointer hover:underline">Soal No.8</div>
+          </Link>
           <Link href="/">
             <div className="cursor-pointer hover:underline">Soal No.9</div>
           </Link>

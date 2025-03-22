@@ -24,7 +24,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-2xl border rounded p-4 ">
+    <div className="w-2xl border rounded p-4">
       {!loggedInUser ? (
         <div className="flex flex-col items-center justify-center gap-4 w-full">
           <input
