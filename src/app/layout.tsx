@@ -30,20 +30,20 @@ export default function RootLayout({
       >
         <nav className="fixed top-0 h-20 shadow w-full flex items-center justify-center gap-8">
           <Link href="/number1to2">
-            <div className="cursor-pointer bg-amber-100">
+            <div className="cursor-pointer hover:underline">
               Soal No.1 s/d no.2
             </div>
           </Link>
           <Link href="/number3to6">
-            <div className="cursor-pointer bg-amber-100">
+            <div className="cursor-pointer hover:underline">
               Soal No.3 s/d no.6
             </div>
           </Link>
           <Link href="/number7">
-            <div className="cursor-pointer bg-amber-100">Soal No.7</div>
+            <div className="cursor-pointer hover:underline">Soal No.7</div>
           </Link>
           <Link href="/">
-            <div className="cursor-pointer bg-amber-100">Soal No.9</div>
+            <div className="cursor-pointer hover:underline">Soal No.9</div>
           </Link>
         </nav>
         <main className="w-full h-full min-h-screen mx-auto px-8 pt-20 flex items-center justify-center">
